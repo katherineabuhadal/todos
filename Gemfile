@@ -11,4 +11,6 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 gem 'spring',        group: :development
 group :test, :development do
   gem 'rspec-rails'
+  gem 'capybara', '1.1.4'
 end
+gem 'high_voltage'
