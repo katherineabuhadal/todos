@@ -13,4 +13,7 @@ group :test, :development do
   gem 'rspec-rails'
   gem 'capybara', '1.1.4'
 end
+group :test do
+  gem 'factory_girl_rails'
+end
 gem 'high_voltage'
